@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Signup Form</title>
+  </head>
+  <body>
+    <form id="signupForm" action="#">
+      <div class="signup-card">
+        <h2>Signup</h2>
+
+        <input type="text" id="name" placeholder="Name" />
+        <p id="name-msg"></p>
+        <input type="email" id="email" placeholder="Email" />
+        <p id="email-msg"></p>
+        <input type="password" id="password" placeholder="Password" />
+        <p id="pass-msg"></p>
+
+        <label>
+          <input type="checkbox" id="showPassword" /> Show Password</label
+        >
+        <div class="btn">
+          <button type="submit">Create Account</button>
+        </div>
+        <p id="message"></p>
+      </div>
+    </form>
+  </body>
+</html>
